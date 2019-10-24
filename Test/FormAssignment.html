@@ -1,0 +1,35 @@
+<!html doctype>
+<html align="center">
+<head><title>Forms</title></head>
+<h1><u>Register</u></h1>
+<form  action="https://www.w3schools.com/tags/att_pattern.asp"  method="Get" >
+	<div>
+		<label  for="name">First Name:</label>
+		<input id="name" type="text" placeholder="First Name" required>
+		<label  for="lname">Last Name:</label>
+		<input id="lname"  type="text"  placeholder="Last Name" required><br>
+	</div><br>
+	<div>
+		<label for="male">Male</label>
+		<input  type="radio"  id="male" name="gender"  value="male"   required>
+		<label for="female">Female</label>
+		<input type="radio" id="female" name="gender"  value="female" >
+		<label for="other">Other</label>
+		<input type="radio" id="other" 	name="gender"  value="other" >
+		<br>
+	</div><br>
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" type="email" placeholder="your email" required>
+		<label for="password">Password:</label>
+		<input id="password" type="password" placeholder="your password"  				minlength="5" maxlength="10"	  title="must be 5 to 10 characters" required>			<br>
+	</div><br>
+	<div>
+		<label for="birth">Dob:<input type="date" required><br><br>
+		<input type="file"><br><br>
+		<label>I agree to the terms and conditions</label><input type="checkbox" 			required></label><br>
+	</div><br>
+ 
+	<button>Submit</button>
+</form>
+</html>
