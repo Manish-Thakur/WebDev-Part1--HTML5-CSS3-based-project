@@ -1,0 +1,47 @@
+table{
+    border: solid black;
+}
+
+th,td{
+    border: solid black;
+    color: chartreuse;
+    padding: 20px;
+}
+ol {
+    color: brown;
+}
+ul {
+    color: yellow; font-size: larger; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: cornflowerblue;
+}
+h1{
+    color:red;
+}
+h2,h3,h4{
+    color: burlywood; font-family: 'Calibri';
+}
+a{
+    color: brown" target="_blank;
+}
+.summary{
+    font-size: 20px;
+    text-align: center;
+}
+.subjects{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 15px;
+}
+#intro{
+    text-align: center;
+    text-decoration: underline;
+}
+.ol-li{
+    font-size: 30px;
+    color: yellow;
+}
+.juhi-img{ 
+margin-left: 50px;
+}
